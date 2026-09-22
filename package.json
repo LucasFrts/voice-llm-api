@@ -1,5 +1,5 @@
 {
-  "name": "deepseek-av2-testes",
+  "name": "voice-llm-api",
   "version": "0.2.0",
   "private": true,
   "engines": {
