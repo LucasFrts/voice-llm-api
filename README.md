@@ -1,8 +1,10 @@
-# Deep Sick 🤒
+# Voice LLM API
 
-**Deep Sick** é uma API chatbot inteligente desenvolvida em Node.js que integra modelos de linguagem generativa (LLM) com capacidades de processamento de áudio. O projeto é uma sátira criativa entre "DeepSeek" e "DeepSick", oferecendo um modo especial onde a IA responde como se estivesse doente, com digitação trêmula, pausas e sintomas humorísticos.
+API de chat em Node.js que integra um LLM a um pipeline completo de áudio: recebe voz, transcreve, consulta o modelo e devolve a resposta em áudio.
 
-A aplicação foi construída com arquitetura em camadas orientada a objetos seguindo o padrão MVC, com cobertura de testes unitários, integração com Google Cloud para conversão de áudio e autenticação JWT.
+Arquitetura em camadas (MVC + service layer + repositories), autenticação JWT com roles, rate limiting, filtro de conteúdo, validação contra NoSQL injection e testes de integração.
+
+> Tem também um modo `sick`, em que o assistente responde como se estivesse gripado — trocadilho com "DeepSeek". É uma feature de humor; o resto do projeto é sério.
 
 ---
 
@@ -42,8 +44,8 @@ A aplicação foi construída com arquitetura em camadas orientada a objetos seg
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/deep-sick.git
-   cd deep-sick
+   git clone https://github.com/LucasFrts/voice-llm-api.git
+   cd voice-llm-api
    ```
 
 2. Instale as dependências:
@@ -629,9 +631,9 @@ Desenvolvido como projeto acadêmico para demonstrar habilidades em:
 
 Para dúvidas, sugestões ou reportar bugs:
 
-* Abra uma [issue no GitHub](https://github.com/LucasFrts/deep-sick/issues)
+* Abra uma [issue no GitHub](https://github.com/LucasFrts/voice-llm-api/issues)
 * Entre em contato via email (se aplicável)
 
 ---
 
-**Deep Sick** - Porque até as IAs precisam de um dia de folga! 🤒🤧
+**Voice LLM API** — chat por voz, ponta a ponta.
